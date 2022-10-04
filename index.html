@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Advice Generator App - Frotend Mentor">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <div class="advice">
+        <div class="advice-heading">Advice generator</div>
+        <p class="advice-body">Click the button to generate some advice</p>
+      </div>
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/pattern-divider-desktop.svg">
+        <img src="images/pattern-divider-mobile.svg" alt="Divider">
+      </picture>
+      <button class="randomize-advice">
+        <img src="images/icon-dice.svg" id="icon-dice" alt="Randomize advice" style="display: block">
+        <img src="images/loader.svg" id="icon-loader" alt="Loading..." style="display: none">
+      </button>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/flxemt">flxemt</a>.
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
